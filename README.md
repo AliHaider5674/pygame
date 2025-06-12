@@ -1,15 +1,12 @@
-I've received your request to provide the README code for the selected content from the "Pygame Project README" Canvas.
+# Pygame Project
 
-Here is the Markdown code for the section you highlighted:
-
-```markdown
 ## Table of Contents
-* [Overview](#overview)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Testing](#testing)
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
 
 ## Overview
 *Add a brief description of your project here. What does it do? What problem does it solve?*
@@ -18,48 +15,47 @@ Here is the Markdown code for the section you highlighted:
 
 ### Prerequisites
 This project requires the following dependencies:
-* **Programming Language:** Python
-* **Package Manager:** Conda
+
+- **Programming Language:** Python  
+- **Package Manager:** Conda
 
 ### Installation
-Build Pygame from the source and install dependencies:
+Build Pygame from source and install dependencies:
+
 1. **Clone the repository:**
-```
 
-❯ git clone [https://github.com/AliHaider5674/pygame](https://github.com/AliHaider5674/pygame)
+   ```bash
+   git clone https://github.com/AliHaider5674/pygame
+   ```
 
-```
 2. **Navigate to the project directory:**
-```
 
-❯ cd pygame
+   ```bash
+   cd pygame
+   ```
 
-```
 3. **Install the dependencies:**
-**Using [conda](https://docs.conda.io/):**
-```
 
-❯ conda env create -f conda.yml
+   Using [conda](https://docs.conda.io/):
 
-```
+   ```bash
+   conda env create -f conda.yml
+   ```
 
 ### Usage
 Run the project with:
-**Using [conda](https://docs.conda.io/):**
-```
 
-conda activate {venv}
-python {entrypoint}
+   ```bash
+   conda activate your_env_name
+   python main.py
+   ```
 
-```
+> Replace `your_env_name` with your actual Conda environment name, and `main.py` with your entry point script.
 
 ### Testing
-Pygame uses the **{test_framework}** test framework. Run the test suite with:
-**Using [conda](https://docs.conda.io/):**
-```
+Pygame uses the **pytest** framework. Run the test suite with:
 
-conda activate {venv}
+```bash
+conda activate your_env_name
 pytest
-
-```
 ```
